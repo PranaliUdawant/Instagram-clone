@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-style: "Roboto";
+    background-image: linear-gradient(to top right, rgb(243, 243, 174), rgb(252, 104, 59), #f365f3, rgb(255, 206, 206));
+}
+
+.main {
+    height: 740px;
+    width: 400px;
+    background-color: black;
+    border-radius: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid pink;
+}
+
+.plus {
+    position: relative;
+}
+
+.pluscir {
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add1 {
+    height: 10px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    top: 8px;
+}
+
+.add2 {
+    height: 2px;
+    width: 10px;
+    background-color: white;
+}
+
+.space {
+    padding-top: 5px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.user1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.story_user {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid pink;
+}
+
+.user2 {
+    display: block;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.cir1,
+.cir2,
+.cir3 {
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.myimg img {
+    height: 250px;
+    width: 360px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 0px; */
+}
+
+.myicons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    /* background-color: red; */
+}
+
+.icons1 {
+    display: flex;
+
+}
+
+.logo1 {
+    position: absolute;
+    top: 670px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
